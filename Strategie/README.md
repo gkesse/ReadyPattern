@@ -1,4 +1,9 @@
-# Stratégie Programme Principal
+# Patron de Conception Stratégie
+
+Le Patron de Conception **Stratégie** est sollicité lorsqu'on désire utiliser 
+une stratégie parmi plusieurs. Il se comporte comme un multiplexeur.
+
+# Programme Principal Stratégie
 
 ```
 //===============================================
@@ -21,6 +26,6 @@ int main(int argc, char** argv) {
 //===============================================
 ```
 
-# Stratégie Resutat
+# Resutat Stratégie
 
-![Result](https://raw.githubusercontent.com/gkesse/ReadyPattern/master/Singleton/img/result.png)
+![Result](https://raw.githubusercontent.com/gkesse/ReadyPattern/master/Strategie/img/result.png)
