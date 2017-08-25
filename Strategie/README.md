@@ -31,5 +31,4 @@ int main(int argc, char** argv) {
 # Resutats Stratégie
 
 Les résultats du programme principal de test:
-
 ![Result](https://raw.githubusercontent.com/gkesse/ReadyPattern/master/Strategie/img/result.png)
