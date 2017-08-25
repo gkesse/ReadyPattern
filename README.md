@@ -23,5 +23,5 @@ Le développement de la bibliothèque **ReadyPattern** a nécessité les technologie
 * IDE : **Visual Studio**
 * Outil de Construction : **NMake, Cygwin**
 * Editeur de Texte : **Notepad++**
-* Concept DSP : **Singleton, Fabrique, Observateur, Stratégie**
+* Patron de Conception : **Singleton, Fabrique, Observateur, Stratégie**
 * Cible : **Windows, UNIX**
