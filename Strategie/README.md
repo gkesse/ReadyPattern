@@ -5,6 +5,8 @@ une stratégie parmi plusieurs. Il se comporte comme un multiplexeur.
 
 # Programme Principal Stratégie
 
+Le programme principal de test :
+
 ```
 //===============================================
 #include "GStrategy.h"
@@ -26,6 +28,8 @@ int main(int argc, char** argv) {
 //===============================================
 ```
 
-# Resutat Stratégie
+# Resutats Stratégie
+
+Les résultats du programme principal de test:
 
 ![Result](https://raw.githubusercontent.com/gkesse/ReadyPattern/master/Strategie/img/result.png)
