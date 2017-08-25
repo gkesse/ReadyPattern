@@ -30,6 +30,6 @@ int main(int argc, char** argv) {
 
 # Résutats Singleton
 
-Les résultats du programme principal de test: 
+Les résultats du programme de test: 
 
 ![Result](https://raw.githubusercontent.com/gkesse/ReadyPattern/master/Singleton/img/result.png)
