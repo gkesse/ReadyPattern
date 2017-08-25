@@ -1,4 +1,4 @@
-# Programme Principal
+# Programme Principal Singleton
 
 ```
 //===============================================
@@ -20,6 +20,6 @@ int main(int argc, char** argv) {
 //===============================================
 ```
 
-# Resutats
+# Resutat Singleton
 
 ![Result](https://raw.githubusercontent.com/gkesse/ReadyPattern/master/Singleton/img/result.png)
