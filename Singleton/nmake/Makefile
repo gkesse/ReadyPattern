@@ -8,13 +8,13 @@ GINCS =\
     
 GOBJS =\
     $(GBUILD)/main.obj \
-    $(GBUILD)/GPerson.obj
+    $(GBUILD)/GSingleton.obj
     
 all: $(GOBJS)
 	link /OUT:$(GTARGET) $(GOBJS)
 $(GBUILD)/main.obj: $(GSRC)/main.cpp
 	cl /c /EHsc $(GSRC)/main.cpp /Fo$(GBUILD)/main.obj $(GINCS)
-$(GBUILD)/GPerson.obj: $(GSRC)/manager/GPerson.cpp
-	cl /c /EHsc $(GSRC)/manager/GPerson.cpp /Fo$(GBUILD)/GPerson.obj
+$(GBUILD)/GSingleton.obj: $(GSRC)/manager/GSingleton.cpp
+	cl /c /EHsc $(GSRC)/manager/GSingleton.cpp /Fo$(GBUILD)/GSingleton.obj
 clean:
 	del /Q $(GBUILD)\* $(GBIN)\*

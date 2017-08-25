@@ -1,18 +1,26 @@
 //===============================================
-#ifndef _GFFT_
-#define _GFFT_
+#ifndef _GSingleton_
+#define _GSingleton_
 //===============================================
 #include <string>
 //===============================================
 using namespace std;
 //===============================================
-class GFFT {
+class GSingleton {
+private:
+    GSingleton();
+    
 public:
-    GFFT();
-    ~GFFT();
+    ~GSingleton();
+    static GSingleton* Instance();
+    
+public:
+    void setData(const string& data);
+    void showData() const;
     
 private:
-    static GFFT* m_instance;
+    static GSingleton* m_instance;
+    string m_data;
 };
 //===============================================
 #endif
