@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 //===============================================
 ```
 
-# Resutats Stratégie
+# Résutats Stratégie
 
 Les résultats du programme principal de test:  
 

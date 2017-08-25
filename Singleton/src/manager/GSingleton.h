@@ -2,6 +2,7 @@
 #ifndef _GSingleton_
 #define _GSingleton_
 //===============================================
+#include <iostream>
 #include <string>
 //===============================================
 using namespace std;
