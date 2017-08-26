@@ -1,7 +1,7 @@
 # Patron de Conception Observateur
 
 Le Patron de Conception **Observateur** est sollicité lorsqu'on désire envoyer 
-des notifications à des modules. Il permet de réaliser des connexions entre des modules. 
+des notifications à des modules. Il permet de connecter des modules entre eux. 
 
 # Programme Principal Observateur
 
