@@ -1,9 +1,8 @@
 # Patron de Conception Stratégie
 
-Le Patron de Conception **Stratégie** est sollicité lorsqu'on désire utiliser 
-une stratégie parmi plusieurs. Il se comporte comme un multiplexeur électronique. 
-Sa conception est rendue possible grâce aux concepts de l'héritage de classe 
-et des méthodes virtuelles.
+Le Patron de Conception **Stratégie** est sollicité lorsqu'on désire changer 
+d'algorithme de façon dynamique. Il permet de permuter dynamiquement les algorithmes 
+utilisés au sein d'un module. 
 
 # Programme Principal Stratégie
 

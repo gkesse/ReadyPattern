@@ -1,10 +1,8 @@
 # Patron de Conception Singleton
 
-Le Patron de Conception **Singleton** est sollicité lorsqu'on désire 
-utiliser la même instance d'une classe dans tout le programme. 
-Il se comporte comme un système centralisé en étoile. 
-Sa conception est rendue possible grâce aux concepts des variables et 
-des méthodes statiques.
+Le Patron de Conception **Singleton** est sollicité lorsqu'on désire utiliser 
+une instance unique d'un module dans une application. Il permet de mieux coordonner 
+les opération au sein d'un système.
 
 # Programme Principal Singleton
 
